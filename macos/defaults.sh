@@ -174,7 +174,7 @@ defaults -currentHost write com.apple.screensaver modulePath -string "${HOME}/Li
 # Start screensaver after 10 minutes
 defaults -currentHost write com.apple.screensaver idleTime 600
 
-# Save screenshots to the desktop
+# Save screenshots to the Downloads folder
 defaults write com.apple.screencapture location -string "${HOME}/Downloads"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
